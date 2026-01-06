@@ -14,6 +14,10 @@ java {
 	}
 }
 
+springBoot {
+	mainClass = 'com.confession.game.ConfessionGameApplication'
+}
+
 repositories {
 	mavenCentral()
 }

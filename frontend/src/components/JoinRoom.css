@@ -1,0 +1,96 @@
+.join-room-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 20px;
+}
+
+.join-room-card {
+  background: #2d2d44;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #888;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group label {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.input-group input {
+  padding: 14px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #1a1a2e;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.input-group input:focus {
+  box-shadow: 0 0 0 2px #6c5ce7;
+}
+
+.input-group input::placeholder {
+  color: #666;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+}
+
+.join-button {
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 10px;
+}
+
+.join-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(108, 92, 231, 0.4);
+}
+
+.join-button:active {
+  transform: translateY(0);
+}
