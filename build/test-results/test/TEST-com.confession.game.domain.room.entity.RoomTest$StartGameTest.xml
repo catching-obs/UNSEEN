@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="startGame 테스트" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.977Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.001">
+  <properties/>
+  <testcase name="게임을 시작하면 상태가 PLAYING으로 변경되고 대상자가 선택된다" classname="com.confession.game.domain.room.entity.RoomTest$StartGameTest" time="0.0"/>
+  <testcase name="모든 플레이어가 대상이 되면 히스토리를 초기화하고 다시 선택한다" classname="com.confession.game.domain.room.entity.RoomTest$StartGameTest" time="0.001"/>
+  <testcase name="플레이어가 없으면 예외를 발생시킨다" classname="com.confession.game.domain.room.entity.RoomTest$StartGameTest" time="0.0"/>
+  <testcase name="플레이어가 2명 미만이면 예외를 발생시킨다" classname="com.confession.game.domain.room.entity.RoomTest$StartGameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

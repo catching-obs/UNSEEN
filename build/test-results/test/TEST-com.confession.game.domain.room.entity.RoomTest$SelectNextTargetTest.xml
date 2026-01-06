@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="selectNextTarget 테스트" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.982Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.001">
+  <properties/>
+  <testcase name="이미 대상이 된 플레이어를 선택하면 예외를 발생시킨다" classname="com.confession.game.domain.room.entity.RoomTest$SelectNextTargetTest" time="0.001"/>
+  <testcase name="다음 대상을 선택한다" classname="com.confession.game.domain.room.entity.RoomTest$SelectNextTargetTest" time="0.0"/>
+  <testcase name="존재하지 않는 플레이어를 선택하면 예외를 발생시킨다" classname="com.confession.game.domain.room.entity.RoomTest$SelectNextTargetTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sendConfession 테스트" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.987Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.08">
+  <properties/>
+  <testcase name="대상자가 고해성사를 보내면 예외를 발생시킨다" classname="com.confession.game.domain.room.service.RoomServiceTest$SendConfessionTest" time="0.073"/>
+  <testcase name="고해성사 메시지를 정상적으로 전송한다" classname="com.confession.game.domain.room.service.RoomServiceTest$SendConfessionTest" time="0.006"/>
+  <system-out><![CDATA[2026-01-06 14:41:43 - 고해성사 메시지 전송: 테스트 고해성사
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

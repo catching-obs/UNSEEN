@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="resetGame 테스트" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.985Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.0">
+  <properties/>
+  <testcase name="리셋 후에도 플레이어와 히스토리는 유지된다" classname="com.confession.game.domain.room.entity.RoomTest$ResetGameTest" time="0.0"/>
+  <testcase name="게임을 리셋한다" classname="com.confession.game.domain.room.entity.RoomTest$ResetGameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

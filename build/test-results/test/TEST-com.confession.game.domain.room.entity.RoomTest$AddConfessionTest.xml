@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="addConfession 테스트" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.984Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.001">
+  <properties/>
+  <testcase name="고해성사를 추가한다" classname="com.confession.game.domain.room.entity.RoomTest$AddConfessionTest" time="0.0"/>
+  <testcase name="각 고해성사는 고유한 ID를 가진다" classname="com.confession.game.domain.room.entity.RoomTest$AddConfessionTest" time="0.0"/>
+  <testcase name="여러 개의 고해성사를 추가할 수 있다" classname="com.confession.game.domain.room.entity.RoomTest$AddConfessionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

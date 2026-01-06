@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="게임 플로우 통합 테스트" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.546Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.342">
+  <properties/>
+  <testcase name="동시 투표 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.312"/>
+  <testcase name="빈 방 자동 삭제 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.002"/>
+  <testcase name="투표 반대 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.001"/>
+  <testcase name="순환 대상 선택 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.004"/>
+  <testcase name="다중 고해성사 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.001"/>
+  <testcase name="대상자가 나가면 게임이 리셋되는 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.002"/>
+  <testcase name="재접속 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.002"/>
+  <testcase name="예외 상황: 대상자가 고해성사 전송 시도" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.002"/>
+  <testcase name="투표 만장일치 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.002"/>
+  <testcase name="플레이어 나가기 시나리오" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.001"/>
+  <testcase name="성능 테스트: 100명의 플레이어 처리" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.007"/>
+  <testcase name="예외 상황: 존재하지 않는 방에 접근" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.001"/>
+  <testcase name="전체 게임 플로우: 참가 -&gt; 게임 시작 -&gt; 고해성사 -&gt; 해명 -&gt; 투표 -&gt; 다음 대상 선택" classname="com.confession.game.integration.GameFlowIntegrationTest" time="0.001"/>
+  <system-out><![CDATA[14:41:41.949 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.confession.game.integration.GameFlowIntegrationTest]: GameFlowIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:41:41.986 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.confession.game.ConfessionGameApplication for test class com.confession.game.integration.GameFlowIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-06 14:41:42 - Starting GameFlowIntegrationTest using Java 17.0.16 with PID 30191 (started by bagjunseog in /Users/bagjunseog/Downloads/UNSEEN)
+2026-01-06 14:41:42 - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-06 14:41:42 - No active profile set, falling back to 1 default profile: "default"
+2026-01-06 14:41:42 - Started GameFlowIntegrationTest in 0.509 seconds (process running for 0.957)
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어4 (player-4)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어5 (player-5)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어6 (player-6)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어7 (player-7)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어8 (player-8)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어9 (player-9)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어10 (player-10)가 방 integration-test-room-1767678102836에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102836에서 게임 시작. 대상: player-2
+2026-01-06 14:41:42 - 투표 완료. 모두 동의: true
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102859에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102859에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 player-1가 방 integration-test-room-1767678102859을(를) 나갔습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102859이(가) 삭제되었습니다.
+2026-01-06 14:41:42 - 플레이어 player-2가 방 integration-test-room-1767678102859을(를) 나갔습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102861에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102861에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102861에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102861에서 게임 시작. 대상: player-2
+2026-01-06 14:41:42 - 투표 완료. 모두 동의: false
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102862에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102862에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102862에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102862에서 게임 시작. 대상: player-1
+2026-01-06 14:41:42 - 새로운 대상 선택됨: player-3
+2026-01-06 14:41:42 - 새로운 대상 선택됨: player-2
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102867에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102867에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102867에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102867에서 게임 시작. 대상: player-2
+2026-01-06 14:41:42 - 고해성사 메시지 전송: player-3의 고해성사
+2026-01-06 14:41:42 - 고해성사 메시지 전송: player-1의 고해성사
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102869에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102869에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102869에서 게임 시작. 대상: player-2
+2026-01-06 14:41:42 - 플레이어 player-2가 방 integration-test-room-1767678102869을(를) 나갔습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102871에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102871에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102874에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102874에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102874에서 게임 시작. 대상: player-1
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102876에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102876에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102876에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어4 (player-4)가 방 integration-test-room-1767678102876에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102876에서 게임 시작. 대상: player-4
+2026-01-06 14:41:42 - 투표 완료. 모두 동의: true
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102878에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102878에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102878에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102878에서 게임 시작. 대상: player-2
+2026-01-06 14:41:42 - 플레이어 player-3가 방 integration-test-room-1767678102878을(를) 나갔습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어4 (player-4)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어5 (player-5)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어6 (player-6)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어7 (player-7)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어8 (player-8)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어9 (player-9)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어10 (player-10)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어11 (player-11)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어12 (player-12)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어13 (player-13)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어14 (player-14)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어15 (player-15)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어16 (player-16)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어17 (player-17)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어18 (player-18)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어19 (player-19)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어20 (player-20)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어21 (player-21)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어22 (player-22)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어23 (player-23)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어24 (player-24)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어25 (player-25)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어26 (player-26)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어27 (player-27)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어28 (player-28)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어29 (player-29)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어30 (player-30)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어31 (player-31)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어32 (player-32)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어33 (player-33)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어34 (player-34)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어35 (player-35)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어36 (player-36)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어37 (player-37)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어38 (player-38)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어39 (player-39)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어40 (player-40)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어41 (player-41)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어42 (player-42)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어43 (player-43)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어44 (player-44)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어45 (player-45)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어46 (player-46)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어47 (player-47)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어48 (player-48)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어49 (player-49)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어50 (player-50)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어51 (player-51)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어52 (player-52)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어53 (player-53)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어54 (player-54)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어55 (player-55)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어56 (player-56)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어57 (player-57)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어58 (player-58)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어59 (player-59)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어60 (player-60)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어61 (player-61)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어62 (player-62)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어63 (player-63)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어64 (player-64)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어65 (player-65)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어66 (player-66)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어67 (player-67)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어68 (player-68)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어69 (player-69)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어70 (player-70)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어71 (player-71)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어72 (player-72)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어73 (player-73)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어74 (player-74)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어75 (player-75)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어76 (player-76)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어77 (player-77)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어78 (player-78)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어79 (player-79)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어80 (player-80)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어81 (player-81)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어82 (player-82)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어83 (player-83)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어84 (player-84)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어85 (player-85)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어86 (player-86)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어87 (player-87)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어88 (player-88)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어89 (player-89)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어90 (player-90)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어91 (player-91)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어92 (player-92)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어93 (player-93)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어94 (player-94)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어95 (player-95)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어96 (player-96)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어97 (player-97)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어98 (player-98)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어99 (player-99)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어100 (player-100)가 방 integration-test-room-1767678102879에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102879에서 게임 시작. 대상: player-3
+100명 참가 소요 시간: 4ms
+게임 시작 소요 시간: 0ms
+2026-01-06 14:41:42 - 플레이어 플레이어1 (player-1)가 방 integration-test-room-1767678102887에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어2 (player-2)가 방 integration-test-room-1767678102887에 참가했습니다.
+2026-01-06 14:41:42 - 플레이어 플레이어3 (player-3)가 방 integration-test-room-1767678102887에 참가했습니다.
+2026-01-06 14:41:42 - 방 integration-test-room-1767678102887에서 게임 시작. 대상: player-3
+2026-01-06 14:41:42 - 고해성사 메시지 전송: 당신은 항상 늦어요
+2026-01-06 14:41:42 - 해명 전송: 교통이 막혔어요
+2026-01-06 14:41:42 - 투표 완료. 모두 동의: true
+2026-01-06 14:41:42 - 새로운 대상 선택됨: player-2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

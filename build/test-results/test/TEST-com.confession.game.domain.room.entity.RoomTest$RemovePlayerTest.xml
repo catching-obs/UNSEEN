@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="removePlayer 테스트" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.981Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.001">
+  <properties/>
+  <testcase name="존재하지 않는 플레이어를 제거해도 에러가 발생하지 않는다" classname="com.confession.game.domain.room.entity.RoomTest$RemovePlayerTest" time="0.0"/>
+  <testcase name="플레이어를 제거한다" classname="com.confession.game.domain.room.entity.RoomTest$RemovePlayerTest" time="0.0"/>
+  <testcase name="대상자를 제거하면 게임이 리셋된다" classname="com.confession.game.domain.room.entity.RoomTest$RemovePlayerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

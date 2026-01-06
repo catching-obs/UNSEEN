@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sendExplanation 테스트" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:43.089Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.004">
+  <properties/>
+  <testcase name="대상자가 아닌 플레이어가 해명하면 예외를 발생시킨다" classname="com.confession.game.domain.room.service.RoomServiceTest$SendExplanationTest" time="0.001"/>
+  <testcase name="해명을 정상적으로 전송한다" classname="com.confession.game.domain.room.service.RoomServiceTest$SendExplanationTest" time="0.002"/>
+  <testcase name="존재하지 않는 고해성사에 해명하면 예외를 발생시킨다" classname="com.confession.game.domain.room.service.RoomServiceTest$SendExplanationTest" time="0.001"/>
+  <system-out><![CDATA[2026-01-06 14:41:43 - 해명 전송: 해명입니다
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

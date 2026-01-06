@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="vote 테스트" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.979Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.002">
+  <properties/>
+  <testcase name="한 명이라도 반대하면 전체 동의가 아니다" classname="com.confession.game.domain.room.entity.RoomTest$VoteTest" time="0.0"/>
+  <testcase name="아무도 투표하지 않으면 미완료 상태이다" classname="com.confession.game.domain.room.entity.RoomTest$VoteTest" time="0.0"/>
+  <testcase name="투표를 진행한다" classname="com.confession.game.domain.room.entity.RoomTest$VoteTest" time="0.0"/>
+  <testcase name="동일한 플레이어가 다시 투표하면 덮어쓴다" classname="com.confession.game.domain.room.entity.RoomTest$VoteTest" time="0.0"/>
+  <testcase name="모든 플레이어가 투표하면 완료된다" classname="com.confession.game.domain.room.entity.RoomTest$VoteTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

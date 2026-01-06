@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="addPlayer 테스트" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:42.973Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.001">
+  <properties/>
+  <testcase name="기존 플레이어가 재접속하면 세션ID만 업데이트된다" classname="com.confession.game.domain.room.entity.RoomTest$AddPlayerTest" time="0.0"/>
+  <testcase name="새로운 플레이어를 추가한다" classname="com.confession.game.domain.room.entity.RoomTest$AddPlayerTest" time="0.0"/>
+  <testcase name="여러 플레이어를 추가할 수 있다" classname="com.confession.game.domain.room.entity.RoomTest$AddPlayerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

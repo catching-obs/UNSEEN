@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="getOrCreateRoom 테스트" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-06T05:41:43.084Z" hostname="bagjunseog-ui-MacBookPro.local" time="0.004">
+  <properties/>
+  <testcase name="기존 방이 존재하면 해당 방을 반환한다" classname="com.confession.game.domain.room.service.RoomServiceTest$GetOrCreateRoomTest" time="0.002"/>
+  <testcase name="방이 존재하지 않으면 새로운 방을 생성한다" classname="com.confession.game.domain.room.service.RoomServiceTest$GetOrCreateRoomTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
